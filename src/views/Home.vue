@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full flex items-center justify-center">
-    <h1 class="text-6xl font-bold text-red-600">Hello World</h1>
+  <div class="counter">
   </div>
+  <div>Hello World</div>
 </template>
 
 <script lang="ts">
