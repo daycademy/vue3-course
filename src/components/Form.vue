@@ -1,16 +1,16 @@
 <template>
-  <div class="space-y-2">
-    <InputField
-      placeholder="Vorname"
-      :modelValue="firstname"
-      @input="$emit('update:firstname', $event.target.value)"
-    />
-    <InputField
-      placeholder="Nachname"
-      :modelValue="lastname"
-      @input="$emit('update:lastname', $event.target.value)"
-    />
-  </div>
+  <InputField
+    placeholder="Vorname"
+    :modelValue="firstname"
+    @input="$emit('update:firstname', $event.target.value)"
+    type="text"
+    class="mb-4"
+  />
+  <InputField
+    placeholder="Nachname"
+    :modelValue="lastname"
+    @input="$emit('update:lastname', $event.target.value)"
+  />
 </template>
 
 <script>
